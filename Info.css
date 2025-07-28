@@ -1,0 +1,101 @@
+/*左方圖片*/
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.product-col{
+    width: calc(100%/12*6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.del-price{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--Neutral-500);
+    padding-left: 8px;
+}
+.card img{
+    height: 64px;
+    margin-bottom: 4px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 16px;
+    color: var(--Neutral-600);
+    text-align: center;
+}
+.option{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px;
+}
+.option-active{
+    border: 1px solid var(--Neutral-900);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--Neutral-900);
+    background-color: transparent;
+    padding: 12px 24px;
+    width: 160px;
+}
+
+.option-defeat{
+    border: 1px solid var(--Neutral-300);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--Neutral-900);
+    background-color: transparent;
+    padding: 12px 24px;
+    width: 160px;
+}
+.option-disable{
+    border: 1px solid var(--Neutral-300);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--Neutral-900);
+    background-color: transparent;
+    padding: 12px 24px;
+    width: 160px;;
+    opacity: 40%;
+}
+.btn-normal{
+  border: 1px solid var(--Neutral-900);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--Neutral-900);
+    background-color: transparent;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 259px;
+    height: 48px;
+}
+.btn-fill{
+  border: 1px solid var(--Neutral-900);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#FFFFFF;
+    background-color: var(--Neutral-900);
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 259px;
+    height: 48px;
+}
+.detail{
+    border-bottom: 1px solid var(--Neutral-300);
+}
+.detail p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--Neutral-600);
+    font-weight: 400;
+}
